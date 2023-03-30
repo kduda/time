@@ -1,0 +1,6 @@
+
+images:
+  image:
+    units:
+      - build: |
+          echo "$(date): $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM" > /dest/myfile
